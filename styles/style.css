@@ -1,0 +1,807 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 970px;
+  background-image: url(/img/background.png);
+  background-size: contain;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  position: relative;
+}
+
+.flag-left {
+  position: absolute;
+  left: 0;
+}
+
+.flag-right {
+  position: absolute;
+  right: 0;
+}
+
+.logo-brand {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 8px;
+  margin-top: 12px;
+}
+.logo-brand .img {
+  font-family: "Roboto flex";
+  font-size: 8px;
+  font-weight: 1000;
+  border: 0.79px solid #000;
+  padding: 6px 5px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 12px;
+}
+.title h1 {
+  font-family: "Roboto flex";
+  font-size: 24px;
+  font-weight: 1000;
+  text-transform: uppercase;
+  color: #ac1515;
+}
+.title h2 {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #1b1919;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  gap: 42px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 34px;
+  padding-right: 22.08px;
+}
+
+.container-voting {
+  margin-top: 20px;
+  margin-bottom: 19px;
+}
+
+.voting--1 .text-wrap,
+.voting--2 .text-wrap {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+.voting--1 .text-wrap .text--1,
+.voting--2 .text-wrap .text--1 {
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 600;
+}
+.voting--1 .text-wrap .text--2,
+.voting--2 .text-wrap .text--2 {
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 400;
+}
+.voting--1 .bar-wrap,
+.voting--2 .bar-wrap {
+  display: flex;
+  justify-content: center;
+  margin: 8px 0;
+}
+.voting--1 .bar-wrap .bar-vote--1,
+.voting--2 .bar-wrap .bar-vote--1 {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 10px;
+  background-color: #0f428e;
+  color: #fff;
+  padding: 4.17px 39.5px;
+  border-radius: 8px 0px 0px 8px;
+}
+.voting--1 .bar-wrap .bar-vote--2,
+.voting--2 .bar-wrap .bar-vote--2 {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 10px;
+  background-color: #e9830c;
+  color: #fff;
+  padding: 4.17px 71.5px;
+}
+.voting--1 .bar-wrap .bar-vote--3,
+.voting--2 .bar-wrap .bar-vote--3 {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 10px;
+  background-color: #e4150a;
+  color: #fff;
+  padding: 4.17px 110.5px;
+  border-radius: 0px 8px 8px 0px;
+}
+
+.voting--3 .text-wrap {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+.voting--3 .text-wrap .text--1 {
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 600;
+}
+.voting--3 .text-wrap .text--2 {
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 400;
+}
+.voting--3 .bar-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+}
+.voting--3 .bar-wrap .bar-vote--1 {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 10px;
+  background-color: #0f428e;
+  color: #fff;
+  padding: 4.17px 39.5px;
+  border-radius: 8px 0px 0px 8px;
+}
+.voting--3 .bar-wrap .bar-vote--2 {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 10px;
+  background-color: #e9830c;
+  color: #fff;
+  padding: 4.17px 71.5px;
+}
+.voting--3 .bar-wrap .bar-vote--3 {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 10px;
+  background-color: #e4150a;
+  color: #fff;
+  padding: 4.17px 110.5px;
+  border-radius: 0px 8px 8px 0px;
+}
+
+.first-section {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+.first-section .anis--amin {
+  width: 142.96px;
+  height: 80.89px;
+  text-align: center;
+  position: relative;
+}
+.first-section .anis--amin .name-tag-amin {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 50px;
+}
+.first-section .anis--amin .name-tag-amin .paslon--01 {
+  width: 22.32px;
+  height: 30.68px;
+  font-family: "Inter";
+  font-size: 11px;
+  font-weight: 700;
+  font-style: italic;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3.49px 0px 0px 3.49px;
+}
+.first-section .anis--amin .name-tag-amin .nama-paslon--01 {
+  width: 120.64px;
+  font-family: "Inter";
+  font-size: 8px;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 0px 3.49px 3.49px 0px;
+  padding: 2.79px 5.58px;
+  background-color: #0f428e;
+  text-align: left;
+  line-height: 12.55px;
+}
+.first-section .prabowo--gibran {
+  width: 142.96px;
+  height: 80.89px;
+  text-align: center;
+  position: relative;
+}
+.first-section .prabowo--gibran .name-tag-pragib {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 50px;
+}
+.first-section .prabowo--gibran .name-tag-pragib .paslon--02 {
+  width: 22.32px;
+  height: 30.68px;
+  font-family: "Inter";
+  font-size: 11px;
+  font-weight: 700;
+  font-style: italic;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3.49px 0px 0px 3.49px;
+}
+.first-section .prabowo--gibran .name-tag-pragib .nama-paslon--02 {
+  width: 120.64px;
+  font-family: "Inter";
+  font-size: 8px;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 0px 3.49px 3.49px 0px;
+  padding: 2.79px 5.58px;
+  background-color: #e9830c;
+  text-align: left;
+}
+
+.second-section {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  gap: 32px;
+  margin-top: 8px;
+  position: relative;
+}
+.second-section .ganjar--mahfud {
+  width: 142.96px;
+  height: 80.89px;
+  position: relative;
+  text-align: center;
+}
+.second-section .ganjar--mahfud .name-tag-gama {
+  display: flex;
+  position: absolute;
+  top: 50px;
+}
+.second-section .ganjar--mahfud .name-tag-gama .paslon--03 {
+  width: 22.32px;
+  height: 30.68px;
+  font-family: "Inter";
+  font-size: 11px;
+  font-weight: 700;
+  font-style: italic;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3.49px 0px 0px 3.49px;
+}
+.second-section .ganjar--mahfud .name-tag-gama .nama-paslon--03 {
+  width: 120.64px;
+  font-family: "Inter";
+  font-size: 8px;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 0px 3.49px 3.49px 0px;
+  padding: 2.79px 5.58px;
+  background-color: #e4150a;
+  text-align: left;
+}
+.second-section .btn-bs {
+  width: 165px;
+  height: 33px;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 700;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 32px;
+  position: absolute;
+  top: 45px;
+  left: 160px;
+  text-decoration: none;
+  color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 800px;
+  }
+  .header {
+    gap: 11px;
+  }
+  .header .flag-left,
+  .header .flag-right {
+    width: 100px;
+  }
+  .header .logo-brand {
+    gap: 7px;
+  }
+  .header .logo-brand .logo-dana {
+    width: 46px;
+  }
+  .header .logo-brand .img {
+    font-size: 6px;
+    padding: 5px 4px;
+  }
+  .header .title h1 {
+    font-size: 22px;
+  }
+  .header .title h2 {
+    font-size: 12px;
+  }
+  .section {
+    gap: 41px;
+    padding-top: 1.8px;
+    padding-bottom: 1.8px;
+    padding-left: 32px;
+    padding-right: 21px;
+  }
+  .container-voting {
+    margin-top: 15px;
+    margin-bottom: 11px;
+  }
+  .voting--1 .text-wrap .text--1,
+  .voting--2 .text-wrap .text--1 {
+    font-size: 10px;
+  }
+  .voting--1 .text-wrap .text--2,
+  .voting--2 .text-wrap .text--2 {
+    font-size: 10px;
+  }
+  .voting--1 .bar-wrap,
+  .voting--2 .bar-wrap {
+    margin: 6.5px 0;
+  }
+  .voting--1 .bar-wrap .bar-vote--1,
+  .voting--2 .bar-wrap .bar-vote--1 {
+    font-size: 8px;
+    padding: 3.5px 29.5px;
+  }
+  .voting--1 .bar-wrap .bar-vote--2,
+  .voting--2 .bar-wrap .bar-vote--2 {
+    font-size: 8px;
+    padding: 3.5px 51px;
+  }
+  .voting--1 .bar-wrap .bar-vote--3,
+  .voting--2 .bar-wrap .bar-vote--3 {
+    font-size: 8px;
+    padding: 3.5px 85px;
+  }
+  .voting--3 .text-wrap .text--1 {
+    font-size: 10px;
+  }
+  .voting--3 .text-wrap .text--2 {
+    font-size: 10px;
+  }
+  .voting--3 .bar-wrap {
+    margin-top: 6.5px;
+  }
+  .voting--3 .bar-wrap .bar-vote--1 {
+    font-size: 8px;
+    padding: 3.5px 29.5px;
+  }
+  .voting--3 .bar-wrap .bar-vote--2 {
+    font-size: 8px;
+    padding: 3.5px 51px;
+  }
+  .voting--3 .bar-wrap .bar-vote--3 {
+    font-size: 8px;
+    padding: 3.5px 85px;
+  }
+  .first-section {
+    gap: 30px;
+  }
+  .first-section .anis--amin {
+    width: 113.96px;
+    height: 64.89px;
+  }
+  .first-section .anis--amin img {
+    width: 85.77px;
+  }
+  .first-section .anis--amin .name-tag-amin {
+    top: 38px;
+  }
+  .first-section .anis--amin .name-tag-amin .paslon--01 {
+    width: 20.32px;
+    height: 26.68px;
+    font-size: 8px;
+  }
+  .first-section .anis--amin .name-tag-amin .nama-paslon--01 {
+    width: 94.64px;
+    height: 26.68px;
+    font-size: 6px;
+    line-height: 10.55px;
+  }
+  .first-section .prabowo--gibran {
+    width: 113.96px;
+    height: 64.89px;
+  }
+  .first-section .prabowo--gibran img {
+    width: 67.23px;
+  }
+  .first-section .prabowo--gibran .name-tag-pragib {
+    top: 38px;
+  }
+  .first-section .prabowo--gibran .name-tag-pragib .paslon--02 {
+    width: 20.32px;
+    height: 26.68px;
+    font-size: 8px;
+  }
+  .first-section .prabowo--gibran .name-tag-pragib .nama-paslon--02 {
+    width: 94.64px;
+    height: 26.68px;
+    font-size: 6px;
+    line-height: 10.55px;
+  }
+  .second-section {
+    margin-top: 6px;
+  }
+  .second-section .ganjar--mahfud {
+    width: 113.96px;
+    height: 64.89px;
+  }
+  .second-section .ganjar--mahfud img {
+    width: 67.23px;
+  }
+  .second-section .ganjar--mahfud .name-tag-gama {
+    top: 38px;
+  }
+  .second-section .ganjar--mahfud .name-tag-gama .paslon--03 {
+    width: 20.32px;
+    height: 26.68px;
+    font-size: 8px;
+  }
+  .second-section .ganjar--mahfud .name-tag-gama .nama-paslon--03 {
+    width: 94.64px;
+    height: 26.68px;
+    font-size: 6px;
+    line-height: 10.55px;
+  }
+  .second-section .btn-bs {
+    width: 133px;
+    height: 29px;
+    font-size: 12px;
+    top: 33px;
+    left: 133px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 660px;
+  }
+  .header {
+    gap: 7px;
+  }
+  .header .flag-left,
+  .header .flag-right {
+    width: 80px;
+  }
+  .header .logo-brand {
+    gap: 5px;
+  }
+  .header .logo-brand .logo-dana {
+    width: 40px;
+  }
+  .header .logo-brand .img {
+    font-size: 5.5px;
+    padding: 4px 3px;
+  }
+  .header .title h1 {
+    font-size: 20px;
+  }
+  .header .title h2 {
+    font-size: 10px;
+  }
+  .section {
+    gap: 41px;
+    padding-top: 1.6px;
+    padding-bottom: 1.6px;
+    padding-left: 31.5px;
+    padding-right: 20.5px;
+  }
+  .container-voting {
+    margin-top: 9.5px;
+    margin-bottom: 10.5px;
+  }
+  .voting--1 .text-wrap .text--1,
+  .voting--2 .text-wrap .text--1 {
+    font-size: 8.56px;
+  }
+  .voting--1 .text-wrap .text--2,
+  .voting--2 .text-wrap .text--2 {
+    font-size: 8.56px;
+  }
+  .voting--1 .bar-wrap,
+  .voting--2 .bar-wrap {
+    margin: 6px 0;
+  }
+  .voting--1 .bar-wrap .bar-vote--1,
+  .voting--2 .bar-wrap .bar-vote--1 {
+    font-size: 6px;
+    padding: 3px 22px;
+  }
+  .voting--1 .bar-wrap .bar-vote--2,
+  .voting--2 .bar-wrap .bar-vote--2 {
+    font-size: 6px;
+    padding: 3px 41px;
+  }
+  .voting--1 .bar-wrap .bar-vote--3,
+  .voting--2 .bar-wrap .bar-vote--3 {
+    font-size: 6px;
+    padding: 3px 55px;
+  }
+  .voting--3 .text-wrap .text--1 {
+    font-size: 8.56px;
+  }
+  .voting--3 .text-wrap .text--2 {
+    font-size: 8.56px;
+  }
+  .voting--3 .bar-wrap {
+    margin-top: 6px;
+  }
+  .voting--3 .bar-wrap .bar-vote--1 {
+    font-size: 6px;
+    padding: 3px 20px;
+  }
+  .voting--3 .bar-wrap .bar-vote--2 {
+    font-size: 6px;
+    padding: 3px 41.56px;
+  }
+  .voting--3 .bar-wrap .bar-vote--3 {
+    font-size: 6px;
+    padding: 3px 55px;
+  }
+  .first-section {
+    gap: 30px;
+  }
+  .first-section .anis--amin {
+    width: 89px;
+    height: 50.89px;
+  }
+  .first-section .anis--amin img {
+    width: 68px;
+  }
+  .first-section .anis--amin .name-tag-amin {
+    top: 30px;
+  }
+  .first-section .anis--amin .name-tag-amin .paslon--01 {
+    width: 15.32px;
+    height: 22px;
+    font-size: 7px;
+  }
+  .first-section .anis--amin .name-tag-amin .nama-paslon--01 {
+    width: 74.64px;
+    height: 22px;
+    font-size: 5px;
+    line-height: 8.5px;
+  }
+  .first-section .prabowo--gibran {
+    width: 89px;
+    height: 50.89px;
+  }
+  .first-section .prabowo--gibran img {
+    width: 52px;
+  }
+  .first-section .prabowo--gibran .name-tag-pragib {
+    top: 30px;
+  }
+  .first-section .prabowo--gibran .name-tag-pragib .paslon--02 {
+    width: 15.32px;
+    height: 22px;
+    font-size: 7px;
+  }
+  .first-section .prabowo--gibran .name-tag-pragib .nama-paslon--02 {
+    width: 74.64px;
+    height: 22px;
+    font-size: 5px;
+    line-height: 8.5px;
+  }
+  .second-section .ganjar--mahfud {
+    width: 89px;
+    height: 50.89px;
+  }
+  .second-section .ganjar--mahfud img {
+    width: 52px;
+  }
+  .second-section .ganjar--mahfud .name-tag-gama {
+    top: 30px;
+  }
+  .second-section .ganjar--mahfud .name-tag-gama .paslon--03 {
+    width: 15.32px;
+    height: 22px;
+    font-size: 7px;
+  }
+  .second-section .ganjar--mahfud .name-tag-gama .nama-paslon--03 {
+    width: 74.64px;
+    height: 22px;
+    font-size: 5px;
+    line-height: 8.5px;
+  }
+  .second-section .btn-bs {
+    width: 108px;
+    height: 25px;
+    font-size: 9px;
+    top: 26px;
+    left: 109px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .container {
+    width: 300px;
+  }
+  .header {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .header .flag-left,
+  .header .flag-right {
+    width: 52px;
+  }
+  .header .logo-brand {
+    margin-top: 5px;
+    gap: 3px;
+  }
+  .header .logo-brand .logo-dana {
+    width: 30px;
+  }
+  .header .logo-brand .img {
+    font-size: 4px;
+    padding: 2.5px;
+  }
+  .header .title {
+    margin-top: 5px;
+  }
+  .header .title h1 {
+    font-size: 18px;
+  }
+  .header .title h2 {
+    font-size: 8px;
+  }
+  .section {
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  .container-voting {
+    margin-top: 11px;
+    margin-bottom: 0;
+  }
+  .voting--1 .text-wrap .text--1,
+  .voting--2 .text-wrap .text--1,
+  .voting--3 .text-wrap .text--1 {
+    font-size: 6px;
+  }
+  .voting--1 .text-wrap .text--2,
+  .voting--2 .text-wrap .text--2,
+  .voting--3 .text-wrap .text--2 {
+    font-size: 6px;
+  }
+  .voting--1 .bar-wrap .bar-vote--1,
+  .voting--2 .bar-wrap .bar-vote--1,
+  .voting--3 .bar-wrap .bar-vote--1 {
+    width: 50px;
+    height: 11px;
+    font-size: 4px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .voting--1 .bar-wrap .bar-vote--2,
+  .voting--2 .bar-wrap .bar-vote--2,
+  .voting--3 .bar-wrap .bar-vote--2 {
+    width: 75px;
+    height: 11px;
+    font-size: 4px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .voting--1 .bar-wrap .bar-vote--3,
+  .voting--2 .bar-wrap .bar-vote--3,
+  .voting--3 .bar-wrap .bar-vote--3 {
+    width: 106px;
+    height: 11px;
+    font-size: 4px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .first-section .anis--amin {
+    width: 89px;
+    height: 50px;
+  }
+  .first-section .anis--amin img {
+    width: 59px;
+  }
+  .first-section .anis--amin .name-tag-amin {
+    top: 27px;
+  }
+  .first-section .anis--amin .name-tag-amin .paslon--01 {
+    width: 18px;
+    height: 22px;
+    font-size: 6px;
+  }
+  .first-section .anis--amin .name-tag-amin .nama-paslon--01 {
+    width: 71px;
+    height: 22px;
+    font-size: 4px;
+  }
+  .first-section .prabowo--gibran {
+    width: 89px;
+    height: 50px;
+  }
+  .first-section .prabowo--gibran img {
+    width: 46px;
+  }
+  .first-section .prabowo--gibran .name-tag-pragib {
+    top: 27px;
+  }
+  .first-section .prabowo--gibran .name-tag-pragib .paslon--02 {
+    width: 18px;
+    height: 22px;
+    font-size: 6px;
+  }
+  .first-section .prabowo--gibran .name-tag-pragib .nama-paslon--02 {
+    width: 71px;
+    height: 22px;
+    font-size: 4px;
+  }
+  .second-section {
+    align-items: center;
+  }
+  .second-section .ganjar--mahfud {
+    width: 89px;
+    height: 50px;
+  }
+  .second-section .ganjar--mahfud img {
+    width: 46px;
+  }
+  .second-section .ganjar--mahfud .name-tag-gama {
+    top: 27px;
+  }
+  .second-section .ganjar--mahfud .name-tag-gama .paslon--03 {
+    width: 18px;
+    height: 22px;
+    font-size: 6px;
+  }
+  .second-section .ganjar--mahfud .name-tag-gama .nama-paslon--03 {
+    width: 71px;
+    height: 22px;
+    font-size: 4px;
+  }
+  .second-section .btn-bs {
+    position: static;
+    width: 94px;
+    height: 21px;
+    font-size: 8px;
+  }
+}/*# sourceMappingURL=style.css.map */

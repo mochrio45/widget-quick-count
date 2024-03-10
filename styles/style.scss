@@ -1,0 +1,301 @@
+@import "./variables";
+
+// SAME CODE
+@mixin flex {
+  display: flex;
+  justify-content: center;
+}
+
+@mixin text-voting {
+  .text--1 {
+    font-family: "Inter";
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .text--2 {
+    font-family: "Inter";
+    font-size: 12px;
+    font-weight: 400;
+  }
+}
+
+@mixin bar-voting {
+  .bar-vote--1 {
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 10px;
+    background-color: $blue;
+    color: $white;
+    padding: 4.17px 39.5px;
+    border-radius: 8px 0px 0px 8px;
+  }
+  .bar-vote--2 {
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 10px;
+    background-color: $yellow;
+    color: $white;
+    padding: 4.17px 71.5px;
+  }
+  .bar-vote--3 {
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 10px;
+    background-color: $red;
+    color: $white;
+    padding: 4.17px 110.5px;
+    border-radius: 0px 8px 8px 0px;
+  }
+}
+
+@mixin paslon {
+  width: 22.32px;
+  height: 30.68px;
+  font-family: "Inter";
+  font-size: 11px;
+  font-weight: 700;
+  font-style: italic;
+  background-color: $black;
+  color: $white;
+  @include flex();
+  align-items: center;
+
+  border-radius: 3.49px 0px 0px 3.49px;
+}
+
+@mixin nama-paslon {
+  width: 120.64px;
+  // height: 30.68px;
+  font-family: "Inter";
+  font-size: 8px;
+  font-weight: 700;
+  color: $white;
+  border-radius: 0px 3.49px 3.49px 0px;
+  padding: 2.79px 5.58px;
+}
+
+// ==== GENERAL ====
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  @include flex();
+  align-items: center;
+}
+
+.container {
+  width: 970px;
+  background-image: url(/img/background.png);
+  background-size: contain;
+}
+
+// ==== HEADER ====
+.header {
+  @include flex();
+  gap: 12px;
+  position: relative;
+}
+
+.flag-left {
+  position: absolute;
+  left: 0;
+}
+
+.flag-right {
+  position: absolute;
+  right: 0;
+}
+
+.logo-brand {
+  @include flex();
+  align-items: start;
+  gap: 8px;
+  margin-top: 12px;
+
+  .img {
+    font-family: "Roboto flex";
+    font-size: 8px;
+    font-weight: 1000;
+    border: 0.79px solid $black;
+    padding: 6px 5px;
+  }
+}
+
+.title {
+  text-align: center;
+  margin-top: 12px;
+  h1 {
+    font-family: "Roboto flex";
+    font-size: 24px;
+    font-weight: 1000;
+    text-transform: uppercase;
+    color: $dark-red;
+  }
+  h2 {
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $grey;
+  }
+}
+
+// ==== CONTENT ====
+.section {
+  @include flex();
+  // justify-content: space-between;
+  gap: 42px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 34px;
+  padding-right: 22.08px;
+}
+
+.container-voting {
+  margin-top: 20px;
+  margin-bottom: 19px;
+}
+
+// #VOTING
+.voting--1,
+.voting--2 {
+  // Text
+  .text-wrap {
+    @include flex();
+    justify-content: space-between;
+    @include text-voting();
+  }
+
+  // Bar
+  .bar-wrap {
+    @include flex();
+    @include bar-voting();
+    margin: 8px 0;
+  }
+}
+
+.voting--3 {
+  // Text
+  .text-wrap {
+    @include flex();
+    justify-content: space-between;
+    @include text-voting();
+  }
+
+  // Bar
+  .bar-wrap {
+    @include flex();
+    @include bar-voting();
+    margin-top: 8px;
+  }
+}
+
+// #PASLON
+.first-section {
+  @include flex();
+  justify-content: space-between;
+  gap: 32px;
+
+  .anis--amin {
+    width: 142.96px;
+    height: 80.89px;
+    text-align: center;
+
+    position: relative;
+    .name-tag-amin {
+      @include flex();
+
+      position: absolute;
+      top: 50px;
+
+      .paslon--01 {
+        @include paslon();
+      }
+
+      .nama-paslon--01 {
+        @include nama-paslon();
+        background-color: $blue;
+        text-align: left;
+        line-height: 12.55px;
+      }
+    }
+  }
+
+  .prabowo--gibran {
+    width: 142.96px;
+    height: 80.89px;
+    text-align: center;
+
+    position: relative;
+    .name-tag-pragib {
+      @include flex();
+
+      position: absolute;
+      top: 50px;
+      .paslon--02 {
+        @include paslon();
+      }
+      .nama-paslon--02 {
+        @include nama-paslon();
+        background-color: $yellow;
+        text-align: left;
+      }
+    }
+  }
+}
+
+.second-section {
+  @include flex();
+  justify-content: space-between;
+  gap: 32px;
+  margin-top: 8px;
+  position: relative;
+
+  .ganjar--mahfud {
+    width: 142.96px;
+    height: 80.89px;
+
+    position: relative;
+    text-align: center;
+    .name-tag-gama {
+      display: flex;
+
+      position: absolute;
+      top: 50px;
+      .paslon--03 {
+        @include paslon();
+      }
+      .nama-paslon--03 {
+        @include nama-paslon();
+        background-color: $red;
+        text-align: left;
+      }
+    }
+  }
+
+  .btn-bs {
+    width: 165px;
+    height: 33px;
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 700;
+    background-color: $black;
+    @include flex();
+    align-items: center;
+
+    border-radius: 32px;
+
+    position: absolute;
+    top: 45px;
+    left: 160px;
+
+    // padding: 8px 16px;
+    text-decoration: none;
+    color: $white;
+  }
+}
+
+@import "./media-queries";
